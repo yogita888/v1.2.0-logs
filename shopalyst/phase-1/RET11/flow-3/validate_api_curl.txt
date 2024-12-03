@@ -15,9 +15,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "core_version": "1.2.0",
                 "bap_id": "buyer-app-preprod-v2.ondc.org",
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-                "transaction_id": "69216136-79e8-4bb9-802c-4daa4478c420",
-                "message_id": "d7107d91-c404-4c38-88ff-543813a7aba3",
-                "timestamp": "2024-11-04T12:00:01.337Z",
+                "transaction_id": "41f516f2-09b9-4757-8626-69ff8ae475f9",
+                "message_id": "c31a7b05-06e9-4d6f-888b-08d33682b15f",
+                "timestamp": "2024-11-27T05:53:13.200Z",
                 "ttl": "PT30S"
             },
             "message": {
@@ -43,9 +43,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "69216136-79e8-4bb9-802c-4daa4478c420",
-                "message_id": "d7107d91-c404-4c38-88ff-543813a7aba3",
-                "timestamp": "2024-11-04T12:04:43.808Z"
+                "transaction_id": "41f516f2-09b9-4757-8626-69ff8ae475f9",
+                "message_id": "c31a7b05-06e9-4d6f-888b-08d33682b15f",
+                "timestamp": "2024-11-27T05:53:14.204Z"
             },
             "message": {
                 "catalog": {
@@ -100,7 +100,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                         }
                                     },
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable",
                                         "range": {
                                             "start": "1100",
@@ -119,8 +119,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "parent_category_id": "",
                                     "descriptor": {
                                         "name": "Pizza",
-                                        "short_desc": "Paneer and Cheese Pizza",
-                                        "long_desc": "Paneer and Cheese Pizza",
+                                        "short_desc": "Cheese Pizza",
+                                        "long_desc": "Cheese Pizza",
                                         "images": [
                                             "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.getdirect.in%2Fuploads%2F68747%2Fproducts%2F4537330%2Fadditional-images%2Fpaneer-cheese-pizza-7-inches_2085126055.png&mw=2000"
                                         ]
@@ -303,7 +303,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 {
                                     "id": "0C6C1588AB688C85C3EDA3C05DFEFBC5_4537324_default",
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable"
                                     },
                                     "quantity": {
@@ -347,20 +347,11 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "@ondc/org/contact_details_consumer_care": "Getdirect Homestyle Swad,support@getdirect.com,7011660717",
                                     "tags": [
                                         {
-                                            "code": "origin",
-                                            "list": [
-                                                {
-                                                    "code": "country",
-                                                    "value": "IND"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "code": "veg_nonveg",
                                             "list": [
                                                 {
                                                     "code": "veg",
-                                                    "value": "Yes"
+                                                    "value": "yes"
                                                 }
                                             ]
                                         }
@@ -369,7 +360,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 {
                                     "id": "1648FAE0C287B45984E3EC825EBEFA42_4537325_default",
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable"
                                     },
                                     "quantity": {
@@ -413,20 +404,11 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "@ondc/org/contact_details_consumer_care": "Getdirect Homestyle Swad,support@getdirect.com,7011660717",
                                     "tags": [
                                         {
-                                            "code": "origin",
-                                            "list": [
-                                                {
-                                                    "code": "country",
-                                                    "value": "IND"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "code": "veg_nonveg",
                                             "list": [
                                                 {
                                                     "code": "veg",
-                                                    "value": "Yes"
+                                                    "value": "yes"
                                                 }
                                             ]
                                         }
@@ -435,7 +417,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 {
                                     "id": "2FA2840EF0771A3109D40BA91CEC373B_4537327_default",
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable"
                                     },
                                     "quantity": {
@@ -479,20 +461,11 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "@ondc/org/contact_details_consumer_care": "Getdirect Homestyle Swad,support@getdirect.com,7011660717",
                                     "tags": [
                                         {
-                                            "code": "origin",
-                                            "list": [
-                                                {
-                                                    "code": "country",
-                                                    "value": "IND"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "code": "veg_nonveg",
                                             "list": [
                                                 {
                                                     "code": "veg",
-                                                    "value": "Yes"
+                                                    "value": "yes"
                                                 }
                                             ]
                                         }
@@ -501,7 +474,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 {
                                     "id": "4947D1A2F681FC82D6DC120CAFF7AE75_4537331_default",
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable"
                                     },
                                     "quantity": {
@@ -521,8 +494,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "descriptor": {
                                         "name": "Veg Grilled Sandwich",
                                         "symbol": "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.getdirect.in%2Fuploads%2F68747%2Fproducts%2F4537331%2Fadditional-images%2Fveg-grilled-sandwich_1885952722.png&mw=2000",
-                                        "short_desc": "Veg Grilled Sandwich",
-                                        "long_desc": "Veg Grilled Sandwich",
+                                        "short_desc": "Veg Sandwich",
+                                        "long_desc": "Veg Sandwich Loaded with Grilled Vegetables",
                                         "images": [
                                             "https://imgcdn.shortlyst.com/o?u=https%3A%2F%2Fcdn.getdirect.in%2Fuploads%2F68747%2Fproducts%2F4537331%2Fadditional-images%2Fveg-grilled-sandwich_1885952722.png&mw=2000"
                                         ]
@@ -545,20 +518,11 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "@ondc/org/contact_details_consumer_care": "Getdirect Homestyle Swad,support@getdirect.com,7011660717",
                                     "tags": [
                                         {
-                                            "code": "origin",
-                                            "list": [
-                                                {
-                                                    "code": "country",
-                                                    "value": "IND"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "code": "veg_nonveg",
                                             "list": [
                                                 {
                                                     "code": "veg",
-                                                    "value": "Yes"
+                                                    "value": "yes"
                                                 }
                                             ]
                                         }
@@ -567,7 +531,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 {
                                     "id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328_default",
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable"
                                     },
                                     "quantity": {
@@ -643,20 +607,11 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "@ondc/org/contact_details_consumer_care": "Getdirect Homestyle Swad,support@getdirect.com,7011660717",
                                     "tags": [
                                         {
-                                            "code": "origin",
-                                            "list": [
-                                                {
-                                                    "code": "country",
-                                                    "value": "IND"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "code": "veg_nonveg",
                                             "list": [
                                                 {
                                                     "code": "veg",
-                                                    "value": "Yes"
+                                                    "value": "yes"
                                                 }
                                             ]
                                         },
@@ -683,7 +638,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 {
                                     "id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                     "time": {
-                                        "timestamp": "2024-11-04T12:04:43.806Z",
+                                        "timestamp": "2024-11-27T05:53:14.197Z",
                                         "label": "enable"
                                     },
                                     "quantity": {
@@ -736,7 +691,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                                     },
                                                     {
                                                         "code": "upper",
-                                                        "value": "249.00"
+                                                        "value": "279.00"
                                                     }
                                                 ]
                                             }
@@ -759,20 +714,11 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "@ondc/org/contact_details_consumer_care": "Getdirect Homestyle Swad,support@getdirect.com,7011660717",
                                     "tags": [
                                         {
-                                            "code": "origin",
-                                            "list": [
-                                                {
-                                                    "code": "country",
-                                                    "value": "IND"
-                                                }
-                                            ]
-                                        },
-                                        {
                                             "code": "veg_nonveg",
                                             "list": [
                                                 {
                                                     "code": "veg",
-                                                    "value": "Yes"
+                                                    "value": "yes"
                                                 }
                                             ]
                                         },
@@ -781,7 +727,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                             "list": [
                                                 {
                                                     "code": "id",
-                                                    "value": "1313446"
+                                                    "value": "1313447"
                                                 }
                                             ]
                                         },
@@ -791,6 +737,114 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                                 {
                                                     "code": "type",
                                                     "value": "item"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
+                                    "quantity": {
+                                        "available": {
+                                            "count": "99"
+                                        },
+                                        "maximum": {
+                                            "count": "2"
+                                        }
+                                    },
+                                    "descriptor": {
+                                        "name": "Tomatoes"
+                                    },
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "10.00",
+                                        "maximum_value": "10.00"
+                                    },
+                                    "related": true,
+                                    "category_id": "F&B",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/seller_pickup_return": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/available_on_cod": false,
+                                    "tags": [
+                                        {
+                                            "code": "type",
+                                            "list": [
+                                                {
+                                                    "code": "type",
+                                                    "value": "customization"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "veg_nonveg",
+                                            "list": [
+                                                {
+                                                    "code": "veg",
+                                                    "value": "yes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "parent",
+                                            "list": [
+                                                {
+                                                    "code": "id",
+                                                    "value": "1313452"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949440_default",
+                                    "quantity": {
+                                        "available": {
+                                            "count": "99"
+                                        },
+                                        "maximum": {
+                                            "count": "2"
+                                        }
+                                    },
+                                    "descriptor": {
+                                        "name": "Artichokes"
+                                    },
+                                    "price": {
+                                        "currency": "INR",
+                                        "value": "30.00",
+                                        "maximum_value": "30.00"
+                                    },
+                                    "related": true,
+                                    "category_id": "F&B",
+                                    "@ondc/org/returnable": false,
+                                    "@ondc/org/seller_pickup_return": false,
+                                    "@ondc/org/cancellable": false,
+                                    "@ondc/org/available_on_cod": false,
+                                    "tags": [
+                                        {
+                                            "code": "type",
+                                            "list": [
+                                                {
+                                                    "code": "type",
+                                                    "value": "customization"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "veg_nonveg",
+                                            "list": [
+                                                {
+                                                    "code": "veg",
+                                                    "value": "yes"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "code": "parent",
+                                            "list": [
+                                                {
+                                                    "code": "id",
+                                                    "value": "1313452"
                                                 }
                                             ]
                                         }
@@ -933,7 +987,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     ]
                                 },
                                 {
-                                    "id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
+                                    "id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949423_default",
                                     "quantity": {
                                         "available": {
                                             "count": "99"
@@ -943,7 +997,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                         }
                                     },
                                     "descriptor": {
-                                        "name": "Tomatoes"
+                                        "name": "Tomato"
                                     },
                                     "price": {
                                         "currency": "INR",
@@ -980,14 +1034,14 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                             "list": [
                                                 {
                                                     "code": "id",
-                                                    "value": "1313452"
+                                                    "value": "1313446"
                                                 }
                                             ]
                                         }
                                     ]
                                 },
                                 {
-                                    "id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949440_default",
+                                    "id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949424_default",
                                     "quantity": {
                                         "available": {
                                             "count": "99"
@@ -997,12 +1051,12 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                         }
                                     },
                                     "descriptor": {
-                                        "name": "Artichokes"
+                                        "name": "Extra Paneer"
                                     },
                                     "price": {
                                         "currency": "INR",
-                                        "value": "30.00",
-                                        "maximum_value": "30.00"
+                                        "value": "50.00",
+                                        "maximum_value": "50.00"
                                     },
                                     "related": true,
                                     "category_id": "F&B",
@@ -1034,7 +1088,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                             "list": [
                                                 {
                                                     "code": "id",
-                                                    "value": "1313452"
+                                                    "value": "1313446"
                                                 }
                                             ]
                                         }
@@ -1229,114 +1283,6 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                             ]
                                         }
                                     ]
-                                },
-                                {
-                                    "id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949423_default",
-                                    "quantity": {
-                                        "available": {
-                                            "count": "99"
-                                        },
-                                        "maximum": {
-                                            "count": "2"
-                                        }
-                                    },
-                                    "descriptor": {
-                                        "name": "Tomato"
-                                    },
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "10.00",
-                                        "maximum_value": "10.00"
-                                    },
-                                    "related": true,
-                                    "category_id": "F&B",
-                                    "@ondc/org/returnable": false,
-                                    "@ondc/org/seller_pickup_return": false,
-                                    "@ondc/org/cancellable": false,
-                                    "@ondc/org/available_on_cod": false,
-                                    "tags": [
-                                        {
-                                            "code": "type",
-                                            "list": [
-                                                {
-                                                    "code": "type",
-                                                    "value": "customization"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "code": "veg_nonveg",
-                                            "list": [
-                                                {
-                                                    "code": "veg",
-                                                    "value": "yes"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "code": "parent",
-                                            "list": [
-                                                {
-                                                    "code": "id",
-                                                    "value": "1313446"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    "id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949424_default",
-                                    "quantity": {
-                                        "available": {
-                                            "count": "99"
-                                        },
-                                        "maximum": {
-                                            "count": "2"
-                                        }
-                                    },
-                                    "descriptor": {
-                                        "name": "Extra Paneer"
-                                    },
-                                    "price": {
-                                        "currency": "INR",
-                                        "value": "50.00",
-                                        "maximum_value": "50.00"
-                                    },
-                                    "related": true,
-                                    "category_id": "F&B",
-                                    "@ondc/org/returnable": false,
-                                    "@ondc/org/seller_pickup_return": false,
-                                    "@ondc/org/cancellable": false,
-                                    "@ondc/org/available_on_cod": false,
-                                    "tags": [
-                                        {
-                                            "code": "type",
-                                            "list": [
-                                                {
-                                                    "code": "type",
-                                                    "value": "customization"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "code": "veg_nonveg",
-                                            "list": [
-                                                {
-                                                    "code": "veg",
-                                                    "value": "yes"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "code": "parent",
-                                            "list": [
-                                                {
-                                                    "code": "id",
-                                                    "value": "1313446"
-                                                }
-                                            ]
-                                        }
-                                    ]
                                 }
                             ],
                             "fulfillments": [
@@ -1408,7 +1354,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 }
                             ],
                             "time": {
-                                "timestamp": "2024-11-04T12:04:43.806Z",
+                                "timestamp": "2024-11-27T05:53:14.197Z",
                                 "label": "enable"
                             }
                         }
@@ -1432,9 +1378,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_id": "buyer-app-preprod-v2.ondc.org",
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "72b24173-9e1e-4e52-b8cd-82c7c3d32b9d",
-                "timestamp": "2024-11-08T08:06:23.785Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "626713f8-027d-48b2-9c7c-40c0e17ceb27",
+                "timestamp": "2024-11-27T07:16:32.141Z",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "ttl": "PT30S"
             },
@@ -1626,9 +1572,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "72b24173-9e1e-4e52-b8cd-82c7c3d32b9d",
-                "timestamp": "2024-11-08T08:06:23.947Z"
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "626713f8-027d-48b2-9c7c-40c0e17ceb27",
+                "timestamp": "2024-11-27T07:16:32.286Z"
             },
             "message": {
                 "order": {
@@ -1777,7 +1723,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -2048,7 +1994,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -2071,7 +2017,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -2103,7 +2049,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -2135,7 +2081,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -2194,7 +2140,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "code": "Serviceable"
                                 }
                             },
-                            "@ondc/org/category": "Standard Delivery",
+                            "@ondc/org/category": "Immediate Delivery",
                             "@ondc/org/TAT": "PT2H30M",
                             "@ondc/org/provider_name": "Homestyle Swad"
                         }
@@ -2212,9 +2158,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_id": "buyer-app-preprod-v2.ondc.org",
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "a535127b-1d54-4c0f-90b7-723d3c437232",
-                "timestamp": "2024-11-08T08:06:33.662Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "b353e133-a5d3-4eb8-87d9-bf2b22e048d5",
+                "timestamp": "2024-11-27T07:16:40.491Z",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "ttl": "PT30S"
             },
@@ -2399,8 +2345,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         "phone": "8606200936",
                         "name": "Deepanjali T R",
                         "email": "deepanjalitr@shopalyst.com",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -2440,9 +2386,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "a535127b-1d54-4c0f-90b7-723d3c437232",
-                "timestamp": "2024-11-08T08:06:34.006Z"
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "b353e133-a5d3-4eb8-87d9-bf2b22e048d5",
+                "timestamp": "2024-11-27T07:16:40.785Z"
             },
             "message": {
                 "order": {
@@ -2609,7 +2555,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -2832,7 +2778,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -2855,7 +2801,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -2887,7 +2833,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -2919,7 +2865,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -2981,8 +2927,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -3059,15 +3005,15 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_id": "buyer-app-preprod-v2.ondc.org",
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "e9e36972-3d14-42f0-842f-ceebb68da759",
-                "timestamp": "2024-11-08T08:06:57.805Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "00d77a66-0f82-4172-8529-ecce87969678",
+                "timestamp": "2024-11-27T07:17:00.990Z",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "Created",
                     "billing": {
                         "address": {
@@ -3082,8 +3028,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         "phone": "8606200936",
                         "name": "Deepanjali T R",
                         "email": "deepanjalitr@shopalyst.com",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "items": [
                         {
@@ -3277,9 +3223,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         "uri": "https://razorpay.com/",
                         "tl_method": "http/get",
                         "params": {
-                            "amount": "416.93",
+                            "amount": "378.06",
                             "currency": "INR",
-                            "transaction_id": "order_PIjrSR0dXXlkyc"
+                            "transaction_id": "order_PQFA31lz8oRdEA"
                         },
                         "status": "PAID",
                         "type": "ON-ORDER",
@@ -3302,7 +3248,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -3525,7 +3471,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -3548,7 +3494,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -3580,7 +3526,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -3612,7 +3558,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -3689,8 +3635,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             ]
                         }
                     ],
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:06:57.805Z"
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:17:00.990Z"
                 }
             }
         },
@@ -3705,13 +3651,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "e9e36972-3d14-42f0-842f-ceebb68da759",
-                "timestamp": "2024-11-08T08:06:57.926Z"
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "00d77a66-0f82-4172-8529-ecce87969678",
+                "timestamp": "2024-11-27T07:17:01.091Z"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "Created",
                     "provider": {
                         "id": "ba88a31829f1e8cd628c74eeda7dc1a3",
@@ -3876,7 +3822,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -4099,7 +4045,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -4122,7 +4068,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -4154,7 +4100,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -4186,7 +4132,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -4248,8 +4194,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -4289,8 +4235,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     },
                                     "time": {
                                         "range": {
-                                            "start": "2024-11-08T10:06:57.929Z",
-                                            "end": "2024-11-08T10:36:57.929Z"
+                                            "start": "2024-11-27T09:17:01.094Z",
+                                            "end": "2024-11-27T09:47:01.094Z"
                                         }
                                     }
                                 },
@@ -4331,13 +4277,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             }
                         ],
                         "params": {
-                            "transaction_id": "order_PIjrSR0dXXlkyc",
-                            "amount": "416.93",
+                            "transaction_id": "order_PQFA31lz8oRdEA",
+                            "amount": "378.06",
                             "currency": "INR"
                         }
                     },
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:06:57.926Z",
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:17:01.091Z",
                     "tags": [
                         {
                             "code": "bpp_terms",
@@ -4380,14 +4326,14 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "d3756ed2-b4f6-4fce-820c-2336e7bb9b07",
-                "timestamp": "2024-11-08T08:07:14.987Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "ee32fc95-a9a7-47ec-ab53-0453328e036b",
+                "timestamp": "2024-11-27T07:17:14.373Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "Accepted",
                     "provider": {
                         "id": "ba88a31829f1e8cd628c74eeda7dc1a3",
@@ -4555,7 +4501,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -4592,7 +4538,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -4693,7 +4639,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -4794,7 +4740,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -4865,7 +4811,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -4927,8 +4873,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -4953,8 +4899,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T08:06:57.928Z",
-                                        "end": "2024-11-08T08:16:57.928Z"
+                                        "start": "2024-11-27T07:17:01.094Z",
+                                        "end": "2024-11-27T07:27:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -4977,8 +4923,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T10:26:57.929Z",
-                                        "end": "2024-11-08T10:36:57.929Z"
+                                        "start": "2024-11-27T09:37:01.094Z",
+                                        "end": "2024-11-27T09:47:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -5003,19 +4949,6 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                         {
                                             "code": "type",
                                             "value": "P2P"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "code": "tracking",
-                                    "list": [
-                                        {
-                                            "code": "gps_enabled",
-                                            "value": "yes"
-                                        },
-                                        {
-                                            "code": "url_enabled",
-                                            "value": "no"
                                         }
                                     ]
                                 }
@@ -5043,13 +4976,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             }
                         ],
                         "params": {
-                            "transaction_id": "order_PIjrSR0dXXlkyc",
-                            "amount": "416.93",
+                            "transaction_id": "order_PQFA31lz8oRdEA",
+                            "amount": "378.06",
                             "currency": "INR"
                         }
                     },
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:06:57.926Z"
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:17:01.091Z"
                 }
             }
         },
@@ -5064,14 +4997,14 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "24f4c9c0-a381-4d6d-b3d8-ceb5f0750434",
-                "timestamp": "2024-11-08T08:07:32.457Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "4f8bb269-cff0-420c-866a-22415d6d314b",
+                "timestamp": "2024-11-27T07:17:44.830Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "In-progress",
                     "provider": {
                         "id": "ba88a31829f1e8cd628c74eeda7dc1a3",
@@ -5239,7 +5172,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -5276,7 +5209,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -5377,7 +5310,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -5478,7 +5411,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -5549,7 +5482,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -5611,8 +5544,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -5637,8 +5570,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T08:06:57.928Z",
-                                        "end": "2024-11-08T08:16:57.928Z"
+                                        "start": "2024-11-27T07:17:01.094Z",
+                                        "end": "2024-11-27T07:27:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -5661,8 +5594,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T10:26:57.929Z",
-                                        "end": "2024-11-08T10:36:57.929Z"
+                                        "start": "2024-11-27T09:37:01.094Z",
+                                        "end": "2024-11-27T09:47:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -5731,13 +5664,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             }
                         ],
                         "params": {
-                            "transaction_id": "order_PIjrSR0dXXlkyc",
-                            "amount": "416.93",
+                            "transaction_id": "order_PQFA31lz8oRdEA",
+                            "amount": "378.06",
                             "currency": "INR"
                         }
                     },
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:07:32.427Z"
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:17:44.801Z"
                 }
             }
         },
@@ -5752,14 +5685,14 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "c6f1bb63-bb58-4642-9c69-6cfe2c78f812",
-                "timestamp": "2024-11-08T08:07:37.277Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "29d12571-0b24-489b-8a38-17b0da48512f",
+                "timestamp": "2024-11-27T07:17:48.429Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "In-progress",
                     "provider": {
                         "id": "ba88a31829f1e8cd628c74eeda7dc1a3",
@@ -5927,7 +5860,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -5964,7 +5897,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -6065,7 +5998,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -6166,7 +6099,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -6237,7 +6170,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -6288,7 +6221,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     },
                     "documents": [
                         {
-                            "url": "https://cdn.getdirect.in/orders/invoice/428.pdf",
+                            "url": "https://cdn.getdirect.in/orders/invoice/invoice_6746c76ddca226.99932954.pdf",
                             "label": "Invoice"
                         }
                     ],
@@ -6305,8 +6238,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -6330,10 +6263,10 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     }
                                 },
                                 "time": {
-                                    "timestamp": "2024-11-08T08:07:37.233Z",
+                                    "timestamp": "2024-11-27T07:17:48.399Z",
                                     "range": {
-                                        "start": "2024-11-08T08:06:57.928Z",
-                                        "end": "2024-11-08T08:16:57.928Z"
+                                        "start": "2024-11-27T07:17:01.094Z",
+                                        "end": "2024-11-27T07:27:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -6356,8 +6289,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T10:26:57.929Z",
-                                        "end": "2024-11-08T10:36:57.929Z"
+                                        "start": "2024-11-27T09:37:01.094Z",
+                                        "end": "2024-11-27T09:47:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -6426,13 +6359,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             }
                         ],
                         "params": {
-                            "transaction_id": "order_PIjrSR0dXXlkyc",
-                            "amount": "416.93",
+                            "transaction_id": "order_PQFA31lz8oRdEA",
+                            "amount": "378.06",
                             "currency": "INR"
                         }
                     },
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:07:37.233Z"
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:17:48.399Z"
                 }
             }
         },
@@ -6447,14 +6380,14 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "57e82d50-1adf-40a9-b14b-dfc0c8814ee4",
-                "timestamp": "2024-11-08T08:07:46.860Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "f65979bd-a893-41b2-9ef9-4971992f4b4a",
+                "timestamp": "2024-11-27T07:17:54.263Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "In-progress",
                     "provider": {
                         "id": "ba88a31829f1e8cd628c74eeda7dc1a3",
@@ -6622,7 +6555,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -6659,7 +6592,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -6760,7 +6693,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -6861,7 +6794,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -6932,7 +6865,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -6983,7 +6916,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     },
                     "documents": [
                         {
-                            "url": "https://cdn.getdirect.in/orders/invoice/428.pdf",
+                            "url": "https://cdn.getdirect.in/orders/invoice/invoice_6746c76ddca226.99932954.pdf",
                             "label": "Invoice"
                         }
                     ],
@@ -7000,8 +6933,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -7025,10 +6958,10 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     }
                                 },
                                 "time": {
-                                    "timestamp": "2024-11-08T08:07:37.233Z",
+                                    "timestamp": "2024-11-27T07:17:48.399Z",
                                     "range": {
-                                        "start": "2024-11-08T08:06:57.928Z",
-                                        "end": "2024-11-08T08:16:57.928Z"
+                                        "start": "2024-11-27T07:17:01.094Z",
+                                        "end": "2024-11-27T07:27:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -7051,8 +6984,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 },
                                 "time": {
                                     "range": {
-                                        "start": "2024-11-08T10:26:57.929Z",
-                                        "end": "2024-11-08T10:36:57.929Z"
+                                        "start": "2024-11-27T09:37:01.094Z",
+                                        "end": "2024-11-27T09:47:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -7121,13 +7054,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             }
                         ],
                         "params": {
-                            "transaction_id": "order_PIjrSR0dXXlkyc",
-                            "amount": "416.93",
+                            "transaction_id": "order_PQFA31lz8oRdEA",
+                            "amount": "378.06",
                             "currency": "INR"
                         }
                     },
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:07:46.831Z"
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:17:54.234Z"
                 }
             }
         },
@@ -7142,14 +7075,14 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
-                "message_id": "c6d6ad47-f97c-4969-8ae1-e915313bdc39",
-                "timestamp": "2024-11-08T08:08:14.889Z",
+                "transaction_id": "0caa8bc3-bf21-49b7-82f7-2add5d292b85",
+                "message_id": "3f9e64bc-170b-49b0-9fa3-d3e2459760db",
+                "timestamp": "2024-11-27T07:18:02.612Z",
                 "ttl": "PT30S"
             },
             "message": {
                 "order": {
-                    "id": "2024-11-08-500966",
+                    "id": "2024-11-27-289358",
                     "state": "Completed",
                     "provider": {
                         "id": "ba88a31829f1e8cd628c74eeda7dc1a3",
@@ -7317,7 +7250,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     "quote": {
                         "price": {
                             "currency": "INR",
-                            "value": "416.93"
+                            "value": "378.06"
                         },
                         "breakup": [
                             {
@@ -7354,7 +7287,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "26.82"
+                                    "value": "7.45"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330_default",
                                 "item": {
@@ -7455,7 +7388,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "18.00"
+                                    "value": "5.00"
                                 },
                                 "@ondc/org/item_id": "F95E844ACA857D0B00447F6E814B963F_4537330||6949425_default",
                                 "item": {
@@ -7556,7 +7489,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "7.20"
+                                    "value": "2.00"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949437_default",
                                 "item": {
@@ -7627,7 +7560,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                 "title": "Tax",
                                 "price": {
                                     "currency": "INR",
-                                    "value": "1.80"
+                                    "value": "0.50"
                                 },
                                 "@ondc/org/item_id": "DB4211A8CAEB70AB8A7A3DD6A6EB577C_4537328||6949439_default",
                                 "item": {
@@ -7678,7 +7611,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                     },
                     "documents": [
                         {
-                            "url": "https://cdn.getdirect.in/orders/invoice/428.pdf",
+                            "url": "https://cdn.getdirect.in/orders/invoice/invoice_6746c76ddca226.99932954.pdf",
                             "label": "Invoice"
                         }
                     ],
@@ -7695,8 +7628,8 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                         },
                         "email": "deepanjalitr@shopalyst.com",
                         "phone": "8606200936",
-                        "created_at": "2024-11-08T08:06:33.662Z",
-                        "updated_at": "2024-11-08T08:06:33.662Z"
+                        "created_at": "2024-11-27T07:16:40.491Z",
+                        "updated_at": "2024-11-27T07:16:40.491Z"
                     },
                     "fulfillments": [
                         {
@@ -7720,10 +7653,10 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     }
                                 },
                                 "time": {
-                                    "timestamp": "2024-11-08T08:07:37.233Z",
+                                    "timestamp": "2024-11-27T07:17:48.399Z",
                                     "range": {
-                                        "start": "2024-11-08T08:06:57.928Z",
-                                        "end": "2024-11-08T08:16:57.928Z"
+                                        "start": "2024-11-27T07:17:01.094Z",
+                                        "end": "2024-11-27T07:27:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -7745,10 +7678,10 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     }
                                 },
                                 "time": {
-                                    "timestamp": "2024-11-08T08:08:14.853Z",
+                                    "timestamp": "2024-11-27T07:18:02.571Z",
                                     "range": {
-                                        "start": "2024-11-08T10:26:57.929Z",
-                                        "end": "2024-11-08T10:36:57.929Z"
+                                        "start": "2024-11-27T09:37:01.094Z",
+                                        "end": "2024-11-27T09:47:01.094Z"
                                     }
                                 },
                                 "contact": {
@@ -7817,13 +7750,13 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                             }
                         ],
                         "params": {
-                            "transaction_id": "order_PIjrSR0dXXlkyc",
-                            "amount": "416.93",
+                            "transaction_id": "order_PQFA31lz8oRdEA",
+                            "amount": "378.06",
                             "currency": "INR"
                         }
                     },
-                    "created_at": "2024-11-08T08:06:57.805Z",
-                    "updated_at": "2024-11-08T08:08:14.853Z"
+                    "created_at": "2024-11-27T07:17:00.990Z",
+                    "updated_at": "2024-11-27T07:18:02.571Z"
                 }
             }
         },
@@ -7837,9 +7770,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_id": "buyer-app-preprod-v2.ondc.org",
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
+                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b8g",
                 "message_id": "9feecfbd-f5e6-4427-85d4-84c0de9d7412",
-                "timestamp": "2024-11-08T08:06:20.785Z",
+                "timestamp": "2024-11-27T07:14:30.286Z",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "ttl": "PT30S"
             },
@@ -7888,9 +7821,9 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                 "bap_id": "buyer-app-preprod-v2.ondc.org",
                 "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
                 "bpp_uri": "https://preprod-getdirect-bpp.shopalyst.com/getdirect",
-                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b7c",
+                "transaction_id": "d56dd41f-5450-48c3-9b3f-7c79b5282b8g",
                 "message_id": "9feecfbd-f5e6-4427-85d4-84c0de9d7412",
-                "timestamp": "2024-11-08T08:06:23.785Z",
+                "timestamp": "2024-11-27T07:14:31.286Z",
                 "bpp_id": "preprod-getdirect-bpp.shopalyst.com",
                 "ttl": "PT30S"
             },
@@ -7979,7 +7912,7 @@ curl --location 'https://log-validation.ondc.org/api/validate' \
                                     "code": "Serviceable"
                                 }
                             },
-                            "@ondc/org/category": "Standard Delivery",
+                            "@ondc/org/category": "Immediate Delivery",
                             "@ondc/org/TAT": "P7D",
                             "@ondc/org/provider_name": "Homestyle Swad"
                         }
